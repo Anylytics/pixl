@@ -5,33 +5,33 @@
 
 ## Basic Usage
 
-* Include the stylesheet in your page
+1. Include the stylesheet in your page
 
-```
-<head>
-  <link rel="stylesheet" href="pixl.css">
-</head>
-```
+  ```
+  <head>
+    <link rel="stylesheet" href="pixl.css">
+  </head>
+  ```
 
-* Include the javascript file in your page **after** including jQuery
+2. Include the javascript file in your page **after** including jQuery
 
-```
-<head>
-  <script src="pixl.js"></script>
-</head>
-```
+  ```
+  <head>
+    <script src="pixl.js"></script>
+  </head>
+  ```
 
-* Establish a div that you would like to use for your pixel grid
+3. Establish a div that you would like to use for your pixel grid
 
-```
-<div id="pixl-grid"></div>
-```
+  ```
+  <div id="pixl-grid"></div>
+  ```
 
-* Instantiate pixl however you'd like
+4. Instantiate pixl however you'd like
 
-```
-$( "#pixl-grid" ).pixl(<pixel_grid_width>, <pixel_grid_height>, <pixel_size>, <path_to_image>);
-```
+  ```
+  $( "#pixl-grid" ).pixl(<pixel_grid_width>, <pixel_grid_height>, <pixel_size>, <path_to_image>);
+  ```
 
 The parameters are explained below:
 
