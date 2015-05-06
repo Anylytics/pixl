@@ -1,3 +1,4 @@
+*pixl.js is currently under development and is not ready for you to use yet. I mean you could try but don't blame me when things don't work.*
 # pixl.js
 *Greatly reduce the resolution of your images today!*
 
