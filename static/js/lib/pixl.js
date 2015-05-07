@@ -1,6 +1,6 @@
 (function ( $ ) {
 	
-	$.fn.pixl = function (height, width, pixl) {
+	$.fn.pixl = function (width, height, pixl) {
 
 		this.empty();
 
@@ -17,16 +17,16 @@
 		switch (pixl) {
 			case 1:
 				pixlSizeClass = "ten"
-			pixlSize = 10;
-			pixlMargin = 2;
+				pixlSize = 10;
+				pixlMargin = 2;
 				break;
 			case 2:
-				pixlSizeClass = "twenty"
-			pixlSize = 16;
-			pixlMargin = 4;
+				pixlSizeClass = "sixteen"
+				pixlSize = 16;
+				pixlMargin = 4;
 				break;
 			case 3:
-				pixlSizeClass = "sixteen"
+				pixlSizeClass = "twenty"
 				pixlSize = 20;
 				pixlMargin = 4;
 				break;
