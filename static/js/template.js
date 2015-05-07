@@ -15,10 +15,6 @@ define([ 'ractive', 'rv!../ractive/template', 'jquery','pixl'], function ( Racti
     	createPixlGrid();
     });
 
-    $( window ).resize( function(){
-    	createPixlGrid();
-    });
-
     function createPixlGrid() {
     	$( "#pixl-grid" ).pixl("700","560", 3);
     }
